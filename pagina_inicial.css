@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration:none;
+}
+
+body
+{ 
+	 size: 100%;
+ background-color: #59014d;
+ background-image: linear-gradient(225deg, #4C00A3	 0%, #784BA0 50%, #2B86C5 100%);
+ }
+
+
+header
+{ 
+    
+	width: 100%;
+	justify-content: space-around;
+	position: relative;
+	padding:1.5% ; 
+	background-color: #333;
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+
+}
+.titulo_site
+{
+	font-size: 200%;
+	color: #f3eded;
+}
+.botão_login
+{
+
+}
+
+.bem_vindo
+{    
+	font-family: 'Oswald', sans-serif;
+	color: #f3eded;
+    display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 300%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	letter-spacing:  6px;
+
+}
+section	
+{
+	flex-direction: column;
+	gap: 50%;
+}
+.texto_apresentação_p1 
+{
+	font-family: 'Quicksand', sans-serif;
+	color: #f3eded;
+    font-weight: 360;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 1px;
+}
+
+.texto_apresentação_p2
+ {
+	font-family: 'Quicksand', sans-serif;
+	color: #f3eded;
+    font-weight: 360;
+    padding-top:1px ;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 1px;
+}
+
+.texto_apresentação_p3 
+{
+	font-family: 'Quicksand', sans-serif;
+	color: #f3eded;
+    font-weight: 360;
+    padding-top:1px ;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 1px;
+}
+
+.texto_apresentação_p4 
+{
+	font-family: 'Quicksand', sans-serif;
+	color: #f3eded;
+    font-weight: 360;
+    padding-top:1px ;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 75px;
+
+}
+
+footer
+ { 
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+	padding: 2%;
+	background-color: #000;
+	color: #333;
+	text-align: center;
+	font-size: 10px;
+ }
+ 
+ .botão_info
+ {
+	color:#ffffff;
+ }
